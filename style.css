@@ -1,0 +1,54 @@
+body{
+	background-color: lightyellow;
+}
+#heading{
+	font-size: 2em;
+}
+.center-text{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.btn{
+	background-color:orange;
+	padding:25px 80px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 700;
+}
+#click-btn{
+	background-color: white	;
+}
+#click-btn:hover:enabled{
+	color:yellow;
+}
+#number-of-clicks{
+	padding:35px;
+	color:white;
+	font-size:1.5em;
+}
+.center{
+	margin : auto;
+}
+.circle-base{
+	border-radius: 50%;
+    behavior: url(PIE.htc); // for internet explorer
+}
+.circle-type1{
+	width: 100px;
+    height: 100px;
+    background: orange;
+    border: 1px solid grey;
+}
+.box{
+
+	height:56px;
+	width:100px;
+	background-color: white;
+	border:1px solid grey;
+	border-radius:10px;
+}
+.spacing{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
